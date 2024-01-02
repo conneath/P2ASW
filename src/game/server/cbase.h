@@ -46,7 +46,7 @@
 #include "vphysics_interface.h"
 
 #ifdef IS_WINDOWS_PC
-#define SERVER_USES_VGUI 1
+//#define SERVER_USES_VGUI 0
 #endif
 
 

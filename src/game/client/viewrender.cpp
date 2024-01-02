@@ -1163,10 +1163,10 @@ CViewRender::CViewRender()
 // Purpose: 
 // Output : Returns true on success, false on failure.
 //-----------------------------------------------------------------------------
-inline bool CViewRender::ShouldDrawEntities( void )
-{
-	return ( !m_pDrawEntities || (m_pDrawEntities->GetInt() != 0) );
-}
+//inline bool CViewRender::ShouldDrawEntities( void )
+//{
+//	return ( !m_pDrawEntities || (m_pDrawEntities->GetInt() != 0) );
+//}
 
 
 //-----------------------------------------------------------------------------

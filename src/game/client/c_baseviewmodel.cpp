@@ -202,10 +202,10 @@ bool C_BaseViewModel::Interpolate( float currentTime )
 }
 
 
-inline bool C_BaseViewModel::ShouldFlipViewModel()
-{
-	return false;
-}
+//inline bool C_BaseViewModel::ShouldFlipViewModel()
+//{
+//	return false;
+//}
 
 
 void C_BaseViewModel::ApplyBoneMatrixTransform( matrix3x4_t& transform )

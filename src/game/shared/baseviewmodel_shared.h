@@ -103,7 +103,10 @@ public:
 
 	virtual bool			Interpolate( float currentTime );
 
-	bool					ShouldFlipViewModel();
+	inline bool ShouldFlipViewModel()
+	{
+		return false;
+	}
 	void					UpdateAnimationParity( void );
 	
 	virtual void			PostBuildTransformations( CStudioHdr *pStudioHdr, BoneVector *pos, BoneQuaternion q[] );

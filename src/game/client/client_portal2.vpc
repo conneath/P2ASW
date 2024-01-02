@@ -463,7 +463,8 @@ $Project "Client (Portal 2)"
 	
 	$Folder	"Link Libraries"
 	{
-		$Lib "$LIBCOMMON\jpeglib"
+		$Lib "$LIBCOMMON\jpeglib" [!$VS2015]
+		$Lib "$LIBCOMMON\jpeglib_vs2015" [$VS2015]
 		$Lib "$LIBPUBLIC\vpklib"
 	}
 }
